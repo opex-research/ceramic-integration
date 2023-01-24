@@ -46,3 +46,4 @@ Next, visit the url `http://localhost:8080` and you can start interacting with t
 ## Backend Workflow
 
 The backend implements a static file hosting server and accepts POST request from the frontend. In the request handler, the CentiID backend interacts with the origo service and then mocks a signed verifiable credential, which is then passed back to the frontend client.
+

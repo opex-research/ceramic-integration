@@ -3,8 +3,7 @@ import React, { useState } from "react";
 
 // origo and sample integration specific images
 import logo from "./GitcoinLogo.svg";
-// import logoOrigo1 from "./logo-origo1.png";
-import logoOrigo1 from "./origo_logo_3.png";
+import logoOrigo1 from "./logo-origo1.png;
 import logoMetamask from "./MetaMask.png";
 import logoPaypal from "./paypal.png";
 import logoPlaid from "./plaid.jpg";
