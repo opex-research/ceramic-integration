@@ -28,3 +28,22 @@ When receiving the response of the backend in the frontend, the frontend code wr
 Developers can inspect data on the ceramic network [here](https://tiles.ceramic.community/).
 
 In the case of further questions, please write us an email to `origo.liberty@gmail.com`.
+
+## Backend Architecture
+
+The backend project currently implements a **Golang** web server which hosts the compiled frontend code. Additionally, the backend server implements a handler which accepts POST request from the frontend client. The POST request contains the name of the third-party API and policy. This information is required by to backend to communicate with the third-party API and the policy data is necessary for the backend to know how to interact with the *origo* service. Currently, we interact with the origo service via local program calls, which is going to change and will be replaced with origo gRPC calls. The origo API is currently under development and we replace the interaction sample once the origo gRPC API is deployed. We mock the generation of a signed credential, which is another part what the origo API will return in the future. If the interaction with the third-party API (Paypal in the `grant-ceramic-integration` demo) and the zero knowledge proof computation by the backend and zero knowledge proof verification at the origo service succeeds, we mock the signature upon a credential and further pass back the signed credential to the frontend client.
+
+We plan to provide sample code projects of the CentiID with backends in Node.js, Python, and further requested languages. For the CentiID frontend code, we plan to provide implementation not only in react but Svelte and other frameworks.
+
+## Backend Compilation and Launch
+
+To start the CentiID backend service, switch/cd from the root location of the `grant-ceramic-integration` repository into the folder `backend` and execute `go mod tidy` (which installs Go required packages) and then execute either `go run main.go`, or compile the backend with `go build .` and then start the backend with `./backend`.
+
+Next, visit the url `http://localhost:8080` and you can start interacting with the `grant-ceramic-integration` toolkit CentiID which connects the origo orcale service to the ceramic network.
+
+(optional) If you extend the frontend code and build a new version with `npm run build`, make sure to copy the build folder from `frontend/build` to `backend/frontend/build` before you start the CentiID backend server. This will let you host the new version of the frontend.
+
+## Backend Workflow
+
+The backend implements a static file hosting server and accepts POST request from the frontend. In the request handler, the CentiID backend interacts with the origo service and then mocks a signed verifiable credential, which is then passed back to the frontend client.
+

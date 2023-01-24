@@ -1,0 +1,8 @@
+github.com/anonymoussubmission001/origo/prover/gitcoin_server v0.0.0-20221011220956-4bea558fccc2 h1:wq6QKhKykGiQQTLKgzkMHe0BJar2lnKgdevJwCgIBlQ=
+github.com/anonymoussubmission001/origo/prover/gitcoin_server v0.0.0-20221011220956-4bea558fccc2/go.mod h1:Y7f17lvKZXtSHQJ5cHDLsRKEOlQCpLxMPiSOR4+PH8U=
+github.com/golang-jwt/jwt v3.2.2+incompatible h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY=
+github.com/golang-jwt/jwt v3.2.2+incompatible/go.mod h1:8pz2t5EyA70fFQQSrl6XZXzqecmYZeUEB8OUGHkxJ+I=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+golang.org/x/crypto v0.5.0 h1:U/0M97KRkSFvyD/3FSmdP5W5swImpNgle/EHFhOsQPE=
+golang.org/x/crypto v0.5.0/go.mod h1:NK/OQwhpMQP3MwtdjgLlYHnH9ebylxKWv3e0fK+mkQU=

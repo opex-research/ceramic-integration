@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 // origo and sample integration specific images
 import logo from "./GitcoinLogo.svg";
-import logoOrigo1 from "./logo-origo1.png";
+import logoOrigo1 from "./logo-origo1.png;
 import logoMetamask from "./MetaMask.png";
 import logoPaypal from "./paypal.png";
 import logoPlaid from "./plaid.jpg";
@@ -403,9 +403,9 @@ function App({children}) {
 
         <br></br>
             <br></br>
-        <footer className="w3-center w3-card w3-white w3-padding-16">
+        {/* <footer className="w3-center w3-card w3-white w3-padding-16">
           <p className="w3-hover-text-blue">Copyright © ORIGO 2022</p>
-        </footer>
+        </footer> */}
 
       </div>
     </Provider>

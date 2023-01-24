@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5625eded.css",
+    "main.js": "/static/js/main.564f774b.js",
+    "static/js/555.432382f5.chunk.js": "/static/js/555.432382f5.chunk.js",
+    "static/js/787.670b8769.chunk.js": "/static/js/787.670b8769.chunk.js",
+    "static/js/524.021b2b88.chunk.js": "/static/js/524.021b2b88.chunk.js",
+    "static/media/paypal.png": "/static/media/paypal.16918614b73306fc7d72.png",
+    "static/media/origo_logo_3.png": "/static/media/origo_logo_3.7f8a926712e184098656.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.288506fab3e665f14206.png",
+    "static/media/MetaMask.png": "/static/media/MetaMask.5bf1b8a1088338aa35fb.png",
+    "static/media/GitcoinLogo.svg": "/static/media/GitcoinLogo.152df8f9cb3001f19bd59d7c29a55bf0.svg",
+    "index.html": "/index.html",
+    "main.5625eded.css.map": "/static/css/main.5625eded.css.map",
+    "main.564f774b.js.map": "/static/js/main.564f774b.js.map",
+    "787.670b8769.chunk.js.map": "/static/js/787.670b8769.chunk.js.map",
+    "524.021b2b88.chunk.js.map": "/static/js/524.021b2b88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5625eded.css",
+    "static/js/main.564f774b.js"
+  ]
+}
